@@ -8,12 +8,13 @@
     align-items: center;    
     text-align: center;
     flex-direction: column;
+    text-shadow: 1px 1px 5px rgba(122, 122, 122, 0.651);
+    z-index: 1;
 }
 h1{
     width: 100%;
     font-size: 150px;
     margin: 0;
- 
 }
 h2{
     width: 100%;

@@ -13,4 +13,5 @@ import { BackgroundComponent } from "./background-component/background-component
 })
 export class App {
   protected readonly title = signal('FVR_Portafolio');
+  
 }
