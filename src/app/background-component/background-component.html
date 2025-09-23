@@ -1,10 +1,14 @@
 <section class="SecBackground">
 </section>
-  <div class="bubbles">
-    <div class="bubble"></div>
-    <div class="bubble"></div>
-    <div class="bubble"></div>
-    <div class="bubble"></div>
-    <div class="bubble"></div>
-    <div class="bubble"></div>
-  </div>
+<div class="bubbles">
+  @for (bubble of bubbles; track bubble.id) {
+    <div     class="bubble"
+      [style.width.px]="bubble.size"
+      [style.height.px]="bubble.size"
+      [style.left.%]="bubble.left"
+      [style.animation-duration.s]="bubble.duration"
+      [style.opacity]="bubble.opacity"
+      [style.blur]="bubble.blur"
+      ></div>
+  }
+</div>
