@@ -7,7 +7,7 @@ import { BackgroundComponent } from "./background-component/background-component
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ContactComponent, ExpComponent, NameComponent, BackgroundComponent],
+  imports: [ContactComponent, ExpComponent, NameComponent, BackgroundComponent],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
