@@ -26,9 +26,7 @@
             ],
             "styles": [
               "src/styles.css"
-            ],
-            "outputPath": "docs",
-            "baseHref": "/FVR_Portafolio1/"
+            ]
           },
           "configurations": {
             "production": {
@@ -44,7 +42,9 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "outputPath": "docs",
+              "baseHref": "/FVR_Portafolio1/"
             },
             "development": {
               "optimization": false,
