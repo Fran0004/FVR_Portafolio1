@@ -69,3 +69,12 @@ ul:hover{
     font-size: 10px;
   }
 }
+@media (prefers-color-scheme: light) {
+   ul{
+    color: rgba(27, 27, 27, 0.856);
+   }
+  h1{
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 10px rgba(29, 29, 29, 0.26);
+  }
+}

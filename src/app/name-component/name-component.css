@@ -36,3 +36,8 @@ h2{
     font-size: 30px;
 }
 }
+@media (prefers-color-scheme: light) {
+   .nameDiv{
+    text-shadow: 1px 1px 5px rgba(29, 29, 29, 0.76);
+  }
+}
